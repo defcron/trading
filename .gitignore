@@ -5,3 +5,8 @@
 decision-log.md
 market_watch.py
 market_watch_20261029.jsonl
+market_watch_usd_20261029.jsonl
+trade_decision_log.jsonl
+.kraken_nonce.lock
+market_watch_usd_cad_eth_20261029.jsonl
+watch_usd_cad_eth.py
