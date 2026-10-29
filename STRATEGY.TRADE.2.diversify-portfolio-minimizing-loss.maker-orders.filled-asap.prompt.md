@@ -1,0 +1,1 @@
+alright, we need to obtain a more diverse set of assets in our portfolio now even if it incurs some small losses initially, so that we have more opportunities to trade for more and larger gains in more markets afterwards, so please do that and that via placing maker orders.
