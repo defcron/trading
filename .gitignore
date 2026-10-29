@@ -1,0 +1,7 @@
+.kraken-*
+
+.kraken_nonce_state.json
+.market_watch.lock
+decision-log.md
+market_watch.py
+market_watch_20261029.jsonl
