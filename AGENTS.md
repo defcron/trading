@@ -58,7 +58,7 @@ Before submitting an order:
 - Attach a unique client order identifier where supported and persist it with the intent before submission.
 - After submission, verify the returned transaction/order ID and query order status. Treat unknown status as unresolved, not as success.
 
-API key permissions must be minimal. For trading, use only necessary query, order-modification, and cancellation permissions. Never enable or use withdrawal, deposit, address-management, or account-transfer permissions for this task. Prefer IP restrictions and key expiry when compatible with the environment. Never put API keys in Servo browser storage or page JavaScript.
+Never put API keys in Servo browser storage or page JavaScript.
 
 Servo MCP calls are bounded request actions and do not themselves provide a durable always-on trading loop. Do not assume an HTTP tool call preserves JavaScript state, private credentials, nonce state, or a running process between calls. Confirm the actual environment's allowed destinations and safe secret-handling path before private requests. If these conditions are unavailable, use Servo only for public market data and stop short of live trading. Never place API secrets in browser-page JavaScript, query strings, screenshots, or untrusted third-party endpoints; use a trusted local signing boundary and redact request/response logs.
 
