@@ -10,3 +10,7 @@ trade_decision_log.jsonl
 .kraken_nonce.lock
 market_watch_usd_cad_eth_20261029.jsonl
 watch_usd_cad_eth.py
+.kraken_order_intents.jsonl
+.market_watch_usd_markets.lock
+market_watch_usd_markets_20261029.jsonl
+watch_usd_markets.py
